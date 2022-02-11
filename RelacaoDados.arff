@@ -1,0 +1,62 @@
+@relation RelacaoDadosBIM-weka.filters.unsupervised.attribute.Remove-R24-25
+
+@attribute id numeric
+@attribute base {acm,ieee,scopus}
+@attribute autor string
+@attribute ano {2015,2016,2017,2018,2019,2020,2021}
+@attribute obj_parametricos {SIM,NAO}
+@attribute bib_objetos {SIM,NAO}
+@attribute bib_compartilhada {SIM,NAO}
+@attribute mod_compartilhado {SIM,NAO}
+@attribute proj_centralizado {SIM,NAO}
+@attribute 2d_cad {SIM,NAO}
+@attribute 3d_rv {SIM,NAO}
+@attribute anexos {SIM,NAO}
+@attribute link {SIM,NAO}
+@attribute a_tempo {SIM,NAO}
+@attribute s_custos {SIM,NAO}
+@attribute a_conflitos {SIM,NAO}
+@attribute simulacao {SIM,NAO}
+@attribute simultaneo {SIM,NAO}
+@attribute classificacao {1,2,3}
+@attribute nD {3D,4D,4D+,5D-,5D,5D+}
+@attribute nat_autor_1 {Alemanha,Australia,Brasil,Canada,China,Colombia,Felipinas,Franca,Holanda,'Reino Unido',Romenia}
+@attribute nat_autor_2 {Alemanha,Australia,Brasil,Canada,China,Colombia,Felipinas,Franca,Holanda,'Reino Unido',Romenia}
+@attribute nat_proposta {DESCONHECIDA,Alemanha,Australia,Brasil,Canada,China,Colombia,Felipinas,Franca,Holanda,'Reino Unido',Romenia}
+@attribute fase_projeto {SIM,NAO}
+@attribute fase_implantacao {SIM,NAO}
+@attribute fase_mantenca {SIM,NAO}
+@attribute fase_ME {SIM,NAO}
+@attribute fase_demolicao {SIM,NAO}
+@attribute cenario {'Engenharia de Energia',Subestacao,Usina}
+
+@data
+1,acm,'Parfouru S et al',2016,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,NAO,NAO,NAO,NAO,NAO,2,3D,Alemanha,Franca,DESCONHECIDA,SIM,SIM,NAO,NAO,NAO,Usina
+2,ieee,'Kokorus M 3',2016,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,NAO,SIM,SIM,SIM,NAO,3,5D+,Alemanha,Canada,DESCONHECIDA,SIM,SIM,SIM,SIM,SIM,Subestacao
+3,ieee,'Santos Peres IC et al',2017,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,NAO,NAO,NAO,NAO,NAO,2,3D,Brasil,?,Brasil,SIM,SIM,SIM,SIM,SIM,Subestacao
+4,ieee,'Atudori et al',2018,SIM,SIM,NAO,NAO,SIM,SIM,SIM,NAO,NAO,NAO,NAO,NAO,NAO,NAO,1,3D,Holanda,Romenia,DESCONHECIDA,SIM,SIM,NAO,NAO,NAO,Subestacao
+5,ieee,'Kokorus Mario et al',2018,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,NAO,NAO,SIM,NAO,NAO,2,3D,Alemanha,?,DESCONHECIDA,SIM,NAO,NAO,SIM,NAO,Subestacao
+6,ieee,'Wang L 3',2018,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,China,?,DESCONHECIDA,SIM,SIM,NAO,NAO,NAO,'Engenharia de Energia'
+7,ieee,'Guan L et al',2019,SIM,SIM,?,?,?,?,SIM,?,?,?,?,?,?,?,?,?,China,?,DESCONHECIDA,SIM,SIM,SIM,SIM,SIM,Subestacao
+8,ieee,'Hu J et al',2019,SIM,SIM,?,?,?,SIM,SIM,SIM,SIM,NAO,NAO,SIM,SIM,?,1,3D,China,?,DESCONHECIDA,SIM,SIM,NAO,SIM,NAO,Subestacao
+9,ieee,'Moncada A 2',2019,SIM,SIM,SIM,NAO,NAO,SIM,SIM,SIM,SIM,NAO,SIM,SIM,NAO,NAO,2,5D-,Colombia,?,DESCONHECIDA,SIM,NAO,NAO,SIM,NAO,Subestacao
+10,ieee,'Zhenwei Y et al',2020,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,3,5D+,China,?,China,SIM,SIM,NAO,NAO,NAO,Subestacao
+11,ieee,'Shao Z et al',2021,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,3,5D+,China,?,China,SIM,SIM,SIM,SIM,SIM,Subestacao
+12,ieee,'Zhou L et al',2021,SIM,SIM,SIM,?,?,?,SIM,?,?,?,?,?,SIM,SIM,1,3D,China,?,China,SIM,SIM,SIM,SIM,SIM,Subestacao
+13,scopus,'Cardoso A et al',2017,SIM,SIM,?,SIM,SIM,SIM,SIM,SIM,?,NAO,NAO,NAO,SIM,SIM,2,3D,Brasil,?,Brasil,SIM,NAO,SIM,SIM,NAO,Subestacao
+14,scopus,'Junior MJA et al',2018,SIM,SIM,NAO,SIM,SIM,NAO,SIM,NAO,SIM,NAO,NAO,NAO,NAO,NAO,2,3D,Brasil,?,DESCONHECIDA,NAO,NAO,SIM,SIM,NAO,Subestacao
+15,scopus,'Tang Q et al',2018,SIM,NAO,NAO,NAO,NAO,NAO,SIM,NAO,NAO,SIM,SIM,SIM,NAO,NAO,2,5D,China,?,China,SIM,NAO,NAO,NAO,NAO,Subestacao
+16,scopus,'Qi X et al',2019,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,China,?,China,SIM,SIM,SIM,SIM,SIM,Subestacao
+17,scopus,'Ren C 3',2019,SIM,SIM,SIM,SIM,SIM,SIM,SIM,NAO,NAO,NAO,SIM,SIM,NAO,SIM,3,5D,China,?,China,SIM,NAO,NAO,NAO,NAO,Subestacao
+18,scopus,'Du C et al',2020,SIM,?,?,?,SIM,NAO,SIM,NAO,NAO,SIM,NAO,NAO,SIM,SIM,2,3D,China,?,China,SIM,SIM,NAO,SIM,NAO,Subestacao
+19,scopus,'Gan Yupeng 3',2020,SIM,NAO,NAO,SIM,SIM,NAO,SIM,NAO,NAO,SIM,SIM,SIM,SIM,SIM,3,5D+,China,?,China,SIM,SIM,SIM,SIM,SIM,Subestacao
+20,scopus,'Guan L et al',2020,SIM,?,?,?,?,?,SIM,?,?,?,?,?,?,?,?,?,China,?,DESCONHECIDA,SIM,NAO,NAO,NAO,NAO,Subestacao
+21,scopus,'Liu R 2 (84  52)',2020,SIM,NAO,NAO,SIM,SIM,NAO,SIM,NAO,NAO,SIM,SIM,NAO,NAO,NAO,3,5D,China,?,DESCONHECIDA,NAO,SIM,NAO,NAO,NAO,Subestacao
+22,scopus,'Luo W et al',2020,SIM,SIM,NAO,SIM,SIM,NAO,SIM,NAO,NAO,NAO,SIM,NAO,NAO,NAO,3,5D,China,?,China,SIM,SIM,NAO,SIM,NAO,Subestacao
+23,scopus,'Pan Zeyu et al',2020,SIM,?,?,?,?,SIM,SIM,SIM,SIM,?,?,?,?,?,?,?,China,?,China,SIM,SIM,SIM,SIM,SIM,Subestacao
+24,scopus,'Shi Z et al',2020,SIM,SIM,NAO,NAO,SIM,SIM,SIM,SIM,SIM,NAO,NAO,SIM,NAO,NAO,1,3D,China,?,DESCONHECIDA,SIM,SIM,SIM,SIM,SIM,Subestacao
+25,scopus,'Azevedo D M et al',2021,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,NAO,NAO,NAO,NAO,NAO,2,3D,Brasil,?,Brasil,SIM,SIM,SIM,SIM,SIM,Subestacao
+26,scopus,'Oti HA et al',2021,SIM,SIM,NAO,SIM,SIM,SIM,SIM,SIM,SIM,SIM,NAO,NAO,SIM,NAO,3,4D+,'Reino Unido',?,DESCONHECIDA,SIM,NAO,NAO,NAO,SIM,Usina
+27,scopus,'Sun C 3',2021,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,SIM,NAO,NAO,NAO,NAO,NAO,2,3D,China,?,China,NAO,NAO,SIM,SIM,NAO,Subestacao
+28,scopus,'Zhang D et al',2021,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,China,?,DESCONHECIDA,?,?,?,?,?,'Engenharia de Energia'
+29,acm,'Love et al',2016,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,Australia,'Reino Unido',Felipinas,SIM,NAO,NAO,NAO,NAO,Usina
